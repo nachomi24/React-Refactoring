@@ -1,0 +1,16 @@
+GET http://localhost:3001/api/notes
+
+######
+
+GET http://localhost:3001/api/notes/1
+
+######
+
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "content": "Yopi",
+    "important": true,
+    "date": "2024-04-15"
+}
