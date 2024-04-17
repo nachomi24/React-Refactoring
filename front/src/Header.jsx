@@ -1,9 +1,8 @@
 import React from 'react';
-import './Header.css';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div style={{ fontFamily:'Arial, sans-serif', color: '#ff00bb',textAlign: 'center', fontSize:'2em'}}>
       <h1> ♥♡ Notas ♥♡</h1>
     </div>
   );
